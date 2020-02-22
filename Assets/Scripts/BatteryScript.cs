@@ -21,7 +21,7 @@ public class BatteryScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerInRange != null && Input.GetKey(KeyCode.E))
+        if (playerInRange != null && Input.GetKeyDown(KeyCode.E))
         {
             if (isMounted)
             {
